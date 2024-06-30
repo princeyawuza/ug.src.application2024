@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - SRC Application Portal</title>
+    <center><img src="SRC.JPG" alt="Portal headind"></center>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <form action="form">
+<fieldset>
+    <legend><h4>Bio Data</h4></legend>
+    <label for="Sname">Surname</label>
+    <input type="text" placeholder="Surname">
+    <label for="Sname">Other names</label>
+    <input type="text" placeholder="Other Names"> 
+    <label for="passport">Upload a passport photo:</label>
+    <input type="file"><br><br>
+    <label for="gender">Gender:</label>
+    <select name="gender" id="gender">
+        <option value="gender">Male</option>
+        <option value="gender">Female</option>
+        <option value="gender">Other</option>
+    </select>
+    <label for="Tel">Phone number</label>
+    <input type="text" placeholder="02********">
+    <label for="Age">Age:</label>
+    <input type="number"><br><br>
+    <label for="status">Status:</label>
+    <select name="status" id="stat">
+        <option value="st">Married</option>
+        <option value="st">Single</option>
+        <option value="st">Divorced</option>
+        <option value="st">Dating</option>
+    </select>
+</fieldset>
+<fieldset>
+    <legend><h4>Educational Information</h4></legend>
+    <label for="Department">Department</label><br>
+    <input type="text"><br><br>
+    <label for="Faculty">Faculty</label><br>
+    <input type="text"><br><br>
+    <label for="year">Admission Year:</label>
+    <input type="date">
+    <label for="year">Completion Year:</label>
+    <input type="date">
+</fieldset>
+<fieldset>
+    <legend><h4>Application data</h4></legend>
+    <label for="position">Position:</label><br>
+    <input type="text" placeholder="SRC President">
+    <label for="Position">Have held any position on campus before</label>
+    <select name="position" id="pose">
+        <option value="yes">YES</option>
+        <option value="no">NO</option><br><br>
+    </select>
+    <label for="ques">Have you held any position outside campus before?</label>
+    <select name="position" id="pos">
+        <option value="No">NO</option>
+        <option value="YES">YES</option><br><br>
+    </select>
+</fieldset>
+    </form>
+    <textarea name="Write us a note" id="Write us a message">You can futher describe yourself, add Informationthat You could not add in the form or write a suggestion
+    </textarea>
+    <h5>Kindly proofread Informations you provided above to ensure it is devoid of any ambiguity and accurate. Any forgery would render this application invalid
+        and you may face prosecution. wish you the best of luck!</h5>
+        <input type="button" value="Submit">
+        <input type="button" value="Reset">
+        <center><h6>This page was designed by Prince Yawuza</h6></center>
+</body>
+</html>
